@@ -1,0 +1,2 @@
+Serve para inspecionar o codigo ,e ate 
+para saber como foi escrito tal codigo
