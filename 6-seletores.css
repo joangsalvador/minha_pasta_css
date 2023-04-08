@@ -2,3 +2,15 @@
    color: blue;
 
 }
+.yellow-text{
+    color: brown;
+    font-size: 20px;
+}
+
+#io-text{
+    font-size: 55px;
+    color: blue;
+}
+/* atravez das classes se aplica a varios elementos 
+e atravez do id se aplica mais especificamente sobre um 
+elemento*/
