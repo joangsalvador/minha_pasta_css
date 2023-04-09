@@ -11,3 +11,10 @@ li > a{
 
 
 }
+h1 + h4{
+    border: 4px dashed;/*nesse caso seletor adjascente a funçao so de aplica ao h4 , é aplicado na funçção seguinte ,sempre,!*/
+
+}
+a[href='/recibo']{/*para buscar em todos ancle que tenha o href igual ao meu*/
+    color: orange;
+}
