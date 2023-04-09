@@ -1,0 +1,13 @@
+* {
+    border: 2px solid; /*seletor de estrela se utiliza para se aplicar a funçao para tudo na pagina*/
+}
+
+li a{
+    color: blue;/*seletor de descendencia nesse caso usado para ancler,todas as ancoras*/
+
+}
+li > a{
+    color: brown;/*nesse caso seletor filho,nesse caso todo a que for filho de li vai recever esse estilo*/
+
+
+}
