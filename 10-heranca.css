@@ -1,0 +1,39 @@
+/*quando o filhos herdam as caracteristicas do pai, ex: quando no head se atribui a uma div uma cor 
+e no body vs envolve o ul, li nesse div, todos irão herdar essa caracteristica.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <html>
+        <head>
+          <meta />
+          <title>Treinamento para astronautas</title>
+          <style>
+            div{
+                color: blue;
+                }
+            div ul li{          #dessa forma a div vai somar mais pontos e terá prioridade na página
+                color: red;
+            }
+
+            div ul{
+                border: inherit ; # Dessa forma o filho herda a borda do bai inherit(herdar)
+
+          </style>
+
+
+
+
+
+        </head>
+        <body>
+          <h1>Treinamento para astronautas</h1>
+          <div id="days-of-week">
+            <h3>Dias da semana</h3>
+            <ul>
+              <li>Segunda</li>
+              <li>Terça</li>
+              <li>Quarta</li>
+            </ul>
+          </div>
+        </body>
+    </html>      
